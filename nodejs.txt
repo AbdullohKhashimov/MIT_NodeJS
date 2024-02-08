@@ -1,0 +1,2 @@
+NodeJs bu single thread multi-process language hisoblanadi/. (bitta hona hamma user uchun va hammasini talabini qondiradi.) va thread pullarga tasklarni yuklaydi
+kamida 4ta thread doim ishlab turadi nodejs da 
