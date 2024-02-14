@@ -1,0 +1,3 @@
+Module file package lar ozimiz tomonimizdan yasalgan 
+file lar bolib ularni export qilgan holatda va qayerda ishlatishni 
+hohlasak usha faylga import qilib ishlatamiz
