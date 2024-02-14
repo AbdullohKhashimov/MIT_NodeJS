@@ -1,0 +1,7 @@
+npm init => folder da project ni boshlash uchun node package ni install qilib olamz 
+
+server.js => boshlangich script yani programma ishga tushganda
+ birinchi shu faylni oqidi. yani bizda shunday bir fayl bolishi kerakki
+  u bizga root file sifatida xizmat qiladi
+
+package.json => starting script projectda qanday packagelar va librarylar ishlatganligimiz koriwimiz mumkun 

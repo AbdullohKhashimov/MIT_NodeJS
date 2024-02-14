@@ -1,0 +1,4 @@
+External package lar bu tashqaridan olib kirib ishlatiladigon package lar sarasidandur. 
+Masalan moment package ni ishlatmoqchi bolsak npm i moment db 
+install qigandan songra 
+const moment = require("moment") qilib olamiz qayerda ishlatmoqchi bolsak 
