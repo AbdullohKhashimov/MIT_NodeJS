@@ -1,0 +1,10 @@
+Module core package lar node modules package da install qilingan boladi 
+va ulardan foydalanish uchun faqatgine require qilib olsak boldi 
+
+eg: const fs = require("fs)
+
+Dunyoning ikki oltin qoidasi: 
+1) O'tkinchi narsalarga qayg' urmang 
+2) Bu dunyoda hamma narsa o'tkinchi! 
+		 by Abu! 
+		 
