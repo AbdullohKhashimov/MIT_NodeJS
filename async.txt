@@ -1,0 +1,2 @@
+NodeJS synchronous functionlar bilan ishlab boganidan songina 
+Asynchronous funcitonlar bilan ishlashni boshlaydi. 
