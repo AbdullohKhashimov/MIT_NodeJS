@@ -12,21 +12,25 @@ app.use(express.urlencoded({ extended: true })); //HTML formdan request qilingan
 // 2: Session kodlari
 
 // 3: View kodlari
-app.set("views", "views"); // views folderni ichidan oqi degan mantiq
+app.set("views", "view"); // views folderni ichidan oqi degan mantiq
 app.set("view engine", "ejs"); // ejs orqali front end yasaymiz backend ichida
 
 // 4: Router kodlari
-app.get("/", function (req, res) {
-  res.end("<h1>Hello World</h1>");
+app.post("/create-item", function (req, res) {
+  console.log(req.body);
+  res.json({ test: "Success" }); // res.json() bu json shaklida malumotni qaytaradi
 });
 
-app.get("/gifts", function (req, res) {
-  res.end(`<h1>Sovg'alar bo'limiga xush kelibsz!</h1>`);
+// get() ni database dan malumot olish va oqish uchun get ishlatamiz!
+// post esa malumotni olib kelati va database ga uni yozadi.!
+// req.body da datani qiymatini qaytaradi
+app.get("/", function (req, res) {
+  res.render("reja");
 });
 
 // Server quramiz
 const server = http.createServer(app); // bir dona parameter qabul qiladi
-let PORT = 4000;
+let PORT = 3000;
 server.listen(PORT, function () {
   console.log(
     `The server is successfully running on port ${PORT}, http://localhost:${PORT}`
