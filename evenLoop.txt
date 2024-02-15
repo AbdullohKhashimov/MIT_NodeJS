@@ -1,0 +1,21 @@
+NodeJS single thread multi process language. 
+Yani har qanday user uchun birgina xona ochilib bu xona hamma userni talabini qondiradi.
+kirib kelgan requestlarni yordamchi (worker) threadlarga yuboradi. kelgan
+Kamida 4ta thread ishlab turadi NodeJSda.
+
+app.use() bu middleware hisoblanadi!
+
+express.static()=> express bu object -> static uni methodi. va unga biz bir argument pass qildik
+ yani "public" bu userlar uchun bu folderni koriw imkoniyatini beradi
+
+express.json()=> kirib kelayotkan json formatni object formatiga otkazb beradi => agar 
+bu komanda yoq bolsa document body ni database ga kiritmaydi
+
+express.urlencoded({extended:true})=> HTML da yuborilgan requestlarni qabul qilib beradi agar bu bolmasa qabul qilmaydi.
+ ({extended: true})=> bu nested bolgan objectlar bolsa ham uni ham qabul qil degan manoni bildiradi.
+
+app.get() database dan malumotni oladi va oqidi 
+app.post() kirib kelgan malumotni database ga yozadi
+req() => talab qilish! 
+res() => javob berish!
+body() => browser yuborayotkan data
